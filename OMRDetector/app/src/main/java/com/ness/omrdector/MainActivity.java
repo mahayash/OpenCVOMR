@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     static {
-        System.loadLibrary("OMRDector");
+        System.loadLibrary("OMRDetector");
     }
 
     public native String getMsgFromJni();

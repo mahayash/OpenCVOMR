@@ -5,7 +5,7 @@ model {
         compileSdkVersion 25
         buildToolsVersion "25.0.2"
         defaultConfig {
-            applicationId "com.ness.omrdector"
+            applicationId "com.ness.omrdetector"
             minSdkVersion.apiLevel 15
             targetSdkVersion.apiLevel 25
             versionCode 1
@@ -19,7 +19,7 @@ model {
             }
         }
         ndk {
-            moduleName "OMRDector"
+            moduleName "OMRDetector"
         }
     }
 }
